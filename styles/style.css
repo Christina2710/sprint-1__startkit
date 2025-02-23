@@ -31,7 +31,6 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-  border: red 2px solid;
   margin-left: 64px;
   align-self: center;
   z-index: 2;
@@ -42,7 +41,6 @@
   position: absolute;
   left: 64px;
   bottom: 30px;
-  border: red 2px solid;
   font-weight: normal;
   line-height: 25px;
   font-size: 18px;
@@ -57,7 +55,6 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-  border: red 2px solid;
   margin-top: 64px;
   position: absolute;
   right: 0;
@@ -69,7 +66,6 @@
   width: 765px;
   height: 608px;
   position: absolute;
-  border: red 2px solid;
   right: 0;
   bottom: 0;
 }
@@ -80,7 +76,6 @@
 }
 
 .logo_place_footer {
-  border: red 2px solid;
   align-self: flex-start;
 }
 
@@ -88,7 +83,6 @@
   position: absolute;
   left: 64px;
   top: 30px;
-  border: red 2px solid;
   z-index: 1;
 }
 
@@ -96,13 +90,11 @@
   display: flex;
   padding-top: 100px;
   justify-content: center;
-  border: red 2px solid;
 }
 
 .two-columns {
   width: 80%;
   display: flex;
-  border: red 2px solid;
   justify-content: space-between;
 }
 
@@ -113,14 +105,12 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  border: red 2px solid;
 }
 
 .two-columns__main-text {
   display: flex;
   max-width: 80%;
   min-width: 784px;
-  border: red 2px solid;
   flex-direction: column;
   justify-content: space-between;
   gap: 30px;
@@ -128,7 +118,6 @@
 
 .two-columns__paragraph {
   line-height: 34px;
-  border: red 2px solid;
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
@@ -146,7 +135,6 @@
   align-items: center;
   flex-direction: column;
   padding: 100px 0;
-  border: red 2px solid;
 }
 
 .section-title {
@@ -154,7 +142,6 @@
   font-size: 60px;
   font-weight: 600;
   margin: 0;
-  border: red 2px solid;
   width: 60%;
   text-align: center;
   margin-bottom: 20px;
@@ -164,7 +151,6 @@
   line-height: 34px;
   font-weight: normal;
   font-size: 24px;
-  border: red 2px solid;
   margin: 0;
   width: 60%;
   text-align: center;
@@ -182,7 +168,6 @@
 
 .table {
   display: flex;
-  border: red 2px solid;
   max-width: 1100px;
   flex-direction: row;
   flex-wrap: wrap;
@@ -191,7 +176,6 @@
 
 .table_theme_dark {
   display: flex;
-  border: red 2px solid;
   max-width: 1100px;
   flex-direction: row;
   flex-wrap: wrap;
@@ -201,7 +185,6 @@
 
 .table__cell {
   display: flex;
-  border: red 2px solid;
   width: 250px;
   flex-direction: column;
   gap: 20px;
@@ -216,7 +199,6 @@
 }
 
 .table__heading {
-  border: red 2px solid;
   margin: 0;
   line-height: 1.15;
   font-size: 24px;
@@ -228,7 +210,6 @@
 }
 
 .table__text {
-  border: red 2px solid;
   margin: 0;
   line-height: 1.2;
   font-size: 18px;
@@ -252,7 +233,6 @@
   max-width: 867px;
   max-height: 637px;
   position: absolute;
-  border: red 2px solid;
   bottom: 0;
   align-self: flex-start;
 }
@@ -262,7 +242,6 @@
   line-height: 115px;
   font-size: 120px;
   font-weight: 600;
-  border: red 2px solid;
   text-align: center;
   z-index: 1;
   margin-top: 100px;
@@ -273,7 +252,6 @@
   font-size: 36px;
   font-weight: normal;
   z-index: 2;
-  border: red 2px solid;
 }
 
 .feynman__link {
@@ -292,7 +270,6 @@
   align-items: center;
   flex-direction: column;
   background-color: #1f1f1f;
-  border: red 2px solid;
   padding: 90px 0;
   position: relative;
   overflow: hidden;
@@ -311,14 +288,15 @@
   background-color: #1f1f1f;
   min-height: 350px;
   position: relative;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  justify-content: center;
 }
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  border: red 2px solid;
   width: 90%;
-  margin: 60px auto 40px;
   position: relative;
 }
 
@@ -346,13 +324,11 @@
 
 .footer__author {
   color: white;
-  border: red 2px solid;
   margin-bottom: 18px;
 }
 
 .footer__columns-heading {
   color: white;
-  border: red 2px solid;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
@@ -362,7 +338,6 @@
 .footer__columns-links {
   display: flex;
   flex-direction: column;
-  border: red 2px solid;
   text-decoration: none;
   font-size: 18px;
   font-weight: normal;
@@ -370,16 +345,13 @@
 }
 
 .footer__social-icon {
-  border: red 2px solid;
   margin-right: 10px;
   width: 16px;
-  right: 16px;
+  height: 16px;
   vertical-align: text-top;
-  
 }
 
 .footer__column-link {
   color: white;
   text-decoration: none;
-  border: red 2px solid;
 }
