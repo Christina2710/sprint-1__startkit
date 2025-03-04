@@ -1,0 +1,7 @@
+.cards {
+    border: red solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 920px;
+    column-gap: 96px;
+}
